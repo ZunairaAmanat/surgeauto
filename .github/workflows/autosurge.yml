@@ -34,5 +34,5 @@ jobs:
       - name: Instal surge
         run: npm install --global surge
       - name: Deploy on  surge
-        run: surge ./ idiotic-verse.surge.sh --token ${{ secrets.surge_token }}
+        run: surge ./ fast-zoo.surge.sh --token ${{ secrets.surge }}
  
